@@ -1,0 +1,14 @@
+useful websites:
+
+software:
+plc4me.com
+http://www.samkoon.com.cn/en/down/EA_en.html
+cas modbus scanner
+
+
+hardware:
+https://www.lollette.com/plc-controller
+https://www.lollette.com/plc-controller/le3u-plc-controller/le3u-14mr-6ad2da-plc-controller.html
+
+youtube video tutorial:
+https://www.youtube.com/watch?v=cPuX4ga1Ods&t=185s 
