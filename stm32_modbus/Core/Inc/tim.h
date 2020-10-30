@@ -39,6 +39,7 @@ extern TIM_HandleTypeDef htim1;
 void MX_TIM1_Init(void);
 
 /* USER CODE BEGIN Prototypes */
+void USART1WriteByte(uint8_t byte);
 
 /* USER CODE END Prototypes */
 

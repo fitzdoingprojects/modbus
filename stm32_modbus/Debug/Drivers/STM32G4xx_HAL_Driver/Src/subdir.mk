@@ -66,7 +66,7 @@ Drivers/STM32G4xx_HAL_Driver/Src/%.o: ../Drivers/STM32G4xx_HAL_Driver/Src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo $(PWD)
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32G431xx -I"F:/Dropbox/projects/CS/hmi/stm32_modbus/Core/Inc" -I"F:/Dropbox/projects/CS/hmi/stm32_modbus/Drivers/STM32G4xx_HAL_Driver/Inc" -I"F:/Dropbox/projects/CS/hmi/stm32_modbus/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy" -I"F:/Dropbox/projects/CS/hmi/stm32_modbus/Drivers/CMSIS/Device/ST/STM32G4xx/Include" -I"F:/Dropbox/projects/CS/hmi/stm32_modbus/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32G431xx -I"F:/Dropbox/projects/CS/modbus/stm32_modbus/Core/Inc" -I"F:/Dropbox/projects/CS/modbus/stm32_modbus/Drivers/STM32G4xx_HAL_Driver/Inc" -I"F:/Dropbox/projects/CS/modbus/stm32_modbus/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy" -I"F:/Dropbox/projects/CS/modbus/stm32_modbus/Drivers/CMSIS/Device/ST/STM32G4xx/Include" -I"F:/Dropbox/projects/CS/modbus/stm32_modbus/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

@@ -12,8 +12,8 @@
 <targetDefinitions>
   <board id="nucleo-g431rb">
     <name>NUCLEO-G431RB</name>
-    <dbgIF>SWD</dbgIF>
     <dbgIF>JTAG</dbgIF>
+    <dbgIF>SWD</dbgIF>
     <dbgDEV>ST-Link</dbgDEV>
     <mcuId>stm32g431rbtx</mcuId>
   </board>
